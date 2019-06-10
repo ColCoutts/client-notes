@@ -1,7 +1,7 @@
 import { NEW_NOTE, NEW_NOTE_PENDING } from '../actions/notesActions';
 
 const initialState = {
-  loading: true,
+  loading: false,
   list: []
 };
 
