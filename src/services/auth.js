@@ -3,7 +3,7 @@ import { WebAuth } from 'auth0-js';
 const auth0 = new WebAuth({
   domain: 'dev-wchee1uk.auth0.com',
   clientID: 'DUy2S3C2WHVPNTCH3N55dx17DsWJyFFd',
-  redirectUri: 'http://determined-cray-322a33.netlify.com/callback',
+  redirectUri: 'https://determined-cray-322a33.netlify.com/callback',
   responseType: 'token id_token',
   scope: 'openid profile'
 });
