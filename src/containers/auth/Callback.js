@@ -18,6 +18,7 @@ class Callback extends PureComponent {
 
 const mapDispatchToProps = (dispatch, props) => ({
   handleAuth() {
+    console.log('hihihihi');
     const action = setSession();
     dispatch(action);
     action.payload.then(() => {
